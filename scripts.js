@@ -1,3 +1,47 @@
+// Basic JavaScript for specials carousel functionality
+
+const specialsCarousel = document.querySelector(".specials-carousel");
+
+const specialCards = document.querySelectorAll(".special-card");
+
+const prevSpecialButton = document.querySelector(".prev-special");
+
+const nextSpecialButton = document.querySelector(".next-special");
+
+let currentIndex = 0;
+
+if (specialCards.length > 0) {
+  const cardVisibleWidth = specialCards[0].offsetWidth;
+
+  const cardMarginRight = parseInt(
+    window.getComputedStyle(specialCards[0]).marginRight
+  );
+
+  const totalCardWidth = cardVisibleWidth + cardMarginRight;
+
+  function updateSpecialCarousel() {
+    specialsCarousel.style.transform = `translateX(-${
+      currentIndex * totalCardWidth
+    }px)`;
+  }
+
+  if (prevSpecialButton && nextSpecialButton) {
+    prevSpecialButton.addEventListener("click", () => {
+      currentIndex = Math.max(currentIndex - 1, 0);
+
+      updateSpecialCarousel();
+    });
+
+    nextSpecialButton.addEventListener("click", () => {
+      currentIndex = Math.min(currentIndex + 1, specialCards.length - 1);
+
+      updateSpecialCarousel();
+    });
+
+    updateSpecialCarousel(); // Initial call to set the starting position
+  }
+}
+
 // Basic hamburger menu toggle
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
@@ -40,3 +84,4 @@ ScrollReveal().reveal(".hero-content .hero-button", {
 });
 
 ScrollReveal().reveal(".hero-image", { origin: "right", delay: 700 });
+ScrollReveal().reveal(".specials-carousel .special-card", { interval: 200 });
