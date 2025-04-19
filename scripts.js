@@ -42,6 +42,48 @@ if (specialCards.length > 0) {
   }
 }
 
+// Basic JavaScript for testimonials slider
+
+const testimonialsSlider = document.querySelector(".testimonials-slider");
+
+const testimonials = document.querySelectorAll(".testimonial");
+
+const prevTestimonialButton = document.querySelector(".prev-testimonial");
+
+const nextTestimonialButton = document.querySelector(".next-testimonial");
+
+let testimonialIndex = 0;
+
+if (testimonials.length > 0) {
+  const testimonialWidth = testimonials[0].offsetWidth;
+
+  function updateTestimonialSlider() {
+    testimonialsSlider.style.transform = `translateX(-${
+      testimonialIndex * testimonialWidth
+    }px)`;
+  }
+
+  if (prevTestimonialButton && nextTestimonialButton) {
+    prevTestimonialButton.addEventListener("click", () => {
+      testimonialIndex = Math.max(testimonialIndex - 1, 0);
+
+      updateTestimonialSlider();
+    });
+
+    nextTestimonialButton.addEventListener("click", () => {
+      testimonialIndex = Math.min(
+        testimonialIndex + 1,
+
+        testimonials.length - 1
+      );
+
+      updateTestimonialSlider();
+    });
+
+    updateTestimonialSlider(); // Initial call
+  }
+}
+
 // Basic hamburger menu toggle
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
