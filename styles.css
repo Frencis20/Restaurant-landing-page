@@ -574,7 +574,7 @@ a {
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 20px;
-  color: var(--text-light);
+  color: #777;
 }
 
 .learn-more {
@@ -613,7 +613,7 @@ a {
 .chef-info .section-description {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--text-light);
+  color: #777;
   margin-bottom: 30px;
 }
 
