@@ -85,3 +85,5 @@ ScrollReveal().reveal(".hero-content .hero-button", {
 
 ScrollReveal().reveal(".hero-image", { origin: "right", delay: 700 });
 ScrollReveal().reveal(".specials-carousel .special-card", { interval: 200 });
+ScrollReveal().reveal(".explore-content", { origin: "left" });
+ScrollReveal().reveal(".explore-image", { origin: "right", delay: 300 });
