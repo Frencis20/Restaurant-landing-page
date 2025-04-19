@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #e63946; /* Vibrant red */
+  --secondary-color: #f1faee; /* Light cream */
+  --accent-color: #457b9d; /* Blue accent */
+  --text-dark: #264653; /* Dark blue */
+  --text-light: #a8dadc; /* Light blue */
+  --white: #fff;
+  --background-dark: #264653;
+  --background-light: #f1faee;
+  --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  --border-radius: 10px;
+  --transition: all 0.3s ease-in-out;
+  --container-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--background-light);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
