@@ -85,47 +85,64 @@ if (testimonials.length > 0) {
 }
 
 // Basic hamburger menu toggle
+
 const hamburger = document.querySelector(".hamburger");
+
 const navLinks = document.querySelector(".nav-links");
+
 const overlay = document.querySelector(".overlay");
 
 if (hamburger && navLinks && overlay) {
   hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
+
     overlay.classList.toggle("active");
   });
 
   overlay.addEventListener("click", () => {
     navLinks.classList.remove("open");
+
     overlay.classList.remove("active");
   });
 }
 
 // Initialize ScrollReveal
+
 ScrollReveal({
-  reset: false,
+  reset: false, // Keep animations after scrolling back
+
   distance: "60px",
+
   duration: 800,
+
   delay: 200,
+
   easing: "cubic-bezier(0.5, 0, 0, 1)",
+
   scale: 0.9,
-  mobile: false,
+
+  mobile: false, // Disable animations on mobile if needed
 });
 
-// Apply ScrollReveal animations to elements in the hero section
+// Apply ScrollReveal animations to elements
+
 ScrollReveal().reveal(".hero-content .hero-title", { origin: "top" });
 
 ScrollReveal().reveal(".hero-content .hero-subtitle", {
   origin: "top",
+
   delay: 300,
 });
 
 ScrollReveal().reveal(".hero-content .hero-button", {
   origin: "bottom",
+
   delay: 500,
 });
 
 ScrollReveal().reveal(".hero-image", { origin: "right", delay: 700 });
+
+ScrollReveal().reveal(".section-title", { origin: "top" });
 
 ScrollReveal().reveal(".specials-carousel .special-card", { interval: 200 });
 
@@ -141,6 +158,12 @@ ScrollReveal().reveal(".chef-image", { origin: "right", delay: 300 });
 
 ScrollReveal().reveal(".chef-highlights li", {
   interval: 200,
+
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".testimonials-slider .testimonial", {
+  interval: 300,
 
   origin: "bottom",
 });
