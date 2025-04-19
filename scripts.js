@@ -144,3 +144,7 @@ ScrollReveal().reveal(".chef-highlights li", {
 
   origin: "bottom",
 });
+
+ScrollReveal().reveal(".footer-col", { interval: 200, origin: "bottom" });
+
+ScrollReveal().reveal(".footer-bottom", { origin: "bottom", delay: 200 });
